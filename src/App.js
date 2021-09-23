@@ -24,7 +24,7 @@ function App() {
   }, []);
 
   return (
-    <HashRouter>
+    <HashRouter basename="/index.html">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
