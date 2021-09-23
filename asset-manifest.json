@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SoufianeJD/static/css/main.f7854c47.chunk.css",
-    "main.js": "/SoufianeJD/static/js/main.28e63c37.chunk.js",
-    "main.js.map": "/SoufianeJD/static/js/main.28e63c37.chunk.js.map",
+    "main.js": "/SoufianeJD/static/js/main.9c59b78a.chunk.js",
+    "main.js.map": "/SoufianeJD/static/js/main.9c59b78a.chunk.js.map",
     "runtime-main.js": "/SoufianeJD/static/js/runtime-main.3d4f5c6c.js",
     "runtime-main.js.map": "/SoufianeJD/static/js/runtime-main.3d4f5c6c.js.map",
     "static/css/2.f2512455.chunk.css": "/SoufianeJD/static/css/2.f2512455.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.e5aac253.chunk.js",
     "static/css/main.f7854c47.chunk.css",
-    "static/js/main.28e63c37.chunk.js"
+    "static/js/main.9c59b78a.chunk.js"
   ]
 }
