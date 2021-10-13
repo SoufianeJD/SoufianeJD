@@ -4,6 +4,9 @@ import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Resume from "../Resume/Resume";
 
 function Home() {
   return (
@@ -32,8 +35,12 @@ function Home() {
             </Col>
           </Row>
         </Container>
-      </Container>
+     <br/> <br/>
       <Home2 />
+      <About/>
+      <Projects/>
+      <Resume/>
+      </Container>
     </section>
   );
 }
