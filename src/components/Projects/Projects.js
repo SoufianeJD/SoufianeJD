@@ -15,7 +15,7 @@ import jeuhasard from "../../Assets/Projects/jeuhasard.png";
 
 function Projects() {
   return (
-    <Container id="projects" fluid className="project-section">
+    <Container fluid className="project-section">
       <Particle />
       <Container>
         <h1 className="project-heading">

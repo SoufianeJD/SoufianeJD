@@ -8,7 +8,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 function Resume() {
 
   return (
-    <Container id="resume" fluid className="resume-section">
+    <Container fluid className="resume-section">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
