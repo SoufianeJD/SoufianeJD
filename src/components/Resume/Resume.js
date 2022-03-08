@@ -21,41 +21,48 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Web developer at Vision/R4 📍Montréal,Québec,Canada"
-              date="May 2021 - July 2021 ⏳Part time internship"
+              title="Personal projects"
               content={[
-                "Worked on the development of a frontend website using REACT",
-           "Worked on the development of a frontend website using HTML/CSS/JS",
-           "Worked on the development of an ASP MVC C# web application  SQL SERVER",
+                "Feel free to check out my Projects Section and my Github page.",
+          
+              ]} />
+                    <Resumecontent
+              title="Web developer at Marketucan Technologies Inc 📍Montréal,Québec,Canada"
+              date="November 2021 - March 2022 ⏳Full time"
+              content={[
+                "I participated in improving and adding new functionalities to the company's platform using the following technologies: #Angular Material UI #Ionic Framework #Html #Css #TypeScript #Csharp #MongoDB.",
+              ]} />
+            <Resumecontent
+              title="Web developer at Vision/R4 📍Montréal,Québec,Canada"
+              date="May 2021 - September 2021 ⏳Part time internship"
+              content={[
+                "Worked on the development of a web application using ASP.NET Core MVC / SQL Server.   (This is an application that allows employees to view their pay stubs, checks and T4 + Relevé 1 documents as well as other features).",
+                
+           "Worked on the development of a frontend website using ReactJS.  (This is a website that represents the different functions of the company).",
+           "Fixed JavaScript bugs.",
+           "Buit web pages using Html/Css/Bootstrap.",
+              ]} />
+                      <Resumecontent
+              title="Mentor at Institut Teccart 📍Montréal,Québec,Canada"
+              date="September 2020 - August 2021 ⏳Casual/On-call"
+              content={[
+                "Supervise and guide students in their school projects.",
+                "Explain and give support for students who have difficulty understanding some concepts.",
               ]} />
                    <Resumecontent
-              title="Pastry chef at La Brioche + 📍Montréal,Québec,Canada"
-              date="April 2020 - August 2021 ⏳Part time job"
+              title="Customer service representative at Couche-Tard 📍Laval,Québec,Canada"
+              date="April 2020 - Novembre 2021 ⏳Part time job"
               content={[
-                "Creates pastries, desserts, and other baked goods.",
                 "Customer service.",
                 "Take payments and make sure the till balances at the end of the day.",
-                "Weigh and price fresh food items.",
-                "Pack and wrap purchases.",
-                "Maintain cleanliness of the store.",        
+                "Maintain cleanliness of the store.",
+                "Performing numerous tasks as needed.",        
               ]} />
 <Resumecontent
               title="Production attendant at Lassonde 📍Boisbriand,Québec,Canada"
               date="May 2019 - August 2019 ⏳Part time job"
               content={[
                 "Assisting during the production process and performing numerous tasks as needed.",
-  
-                    
-              ]} />
-
-<Resumecontent
-              title="Telemarketer/Customer advisor 📍Casablanca-Morocco"
-              date="Octobre 2017 - May 2018 ⏳Part time job"
-              content={[
-                "Marketing products.",
-                "Answer phone calls and assist customers who request information.",
-                "Establish a relationship of trust with customers.",
-                    
               ]} />
     
           </Col>
@@ -64,7 +71,7 @@ function Resume() {
             <Resumecontent
               title="Institut Teccart 📍Montréal,Québec,Canada"
               date="2019 -  2021"
-              content={["This is a six-session college diploma that covers comprehensive training in web, desktop, mobile, and artificial intelligence (data analysis) programming as well as other specific applications."]} />
+              content={["This is a six-session college diploma that covers comprehensive training in Web, Desktop, Mobile application development, technical documentation and  machine learning / artificial intelligence as well as some other specific applications."]} />
 
 <Resumecontent
               title="Université Hassan II Aïn Chock 📍Casablanca-Morocco"
@@ -74,7 +81,7 @@ function Resume() {
 <Resumecontent
               title="Al Farabi 2 📍Casablanca-Morocco"
               date="2014 -  2017"
-              content={[""]}
+              content={["General baccalaureate degree in economics and management science"]}
               
               />
 

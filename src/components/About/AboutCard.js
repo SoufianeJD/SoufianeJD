@@ -8,9 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soufiane Jaida </span>
+            Hi Everyone, I am <span className="orange">Soufiane Jaida </span>
            
-            <br />I am a junior developer and a tech lover in general. I also have a huge interested in finance/economic studies...
+            <br />I am a full-stack web developer and a tech lover in general. I describe myself as someone who loves to be challenged. Able to grasp new concepts and melt in quickly with the work environment.
             <br />
             <br />
             Apart from coding 👨🏽‍💻, here's some other activities that I love to do !

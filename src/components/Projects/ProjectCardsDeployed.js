@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { BiLinkExternal } from "react-icons/bi";
 
-function ProjectCards(props) {
+function ProjectCardsDeployed(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -16,10 +16,13 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
-
+        {" "}
+        <Button variant="success" href={props.link2} target="_blank"> 
+          {props.isBlog ? "View Blog" : "🟢LIVE"}
+        </Button>
         
       </Card.Body>
     </Card>
   );
 }
-export default ProjectCards;
+export default ProjectCardsDeployed;

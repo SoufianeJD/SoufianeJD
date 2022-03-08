@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiNodejs,
 } from "react-icons/di";
-import { SiGithub,SiCsharp, SiAngular, SiReact, SiPython, SiMongodb,SiJavascript,SiHtml5,SiCss3,SiBootstrap,SiJquery,SiJava,SiKotlin,SiMysql,SiPhp} from "react-icons/si";
+import { SiGithub,SiCsharp, SiAngular, SiReact, SiMongodb,SiJavascript,SiHtml5,SiCss3,SiBootstrap,SiJquery,SiMysql,SiPhp} from "react-icons/si";
 
 function Techstack() {
   return (
@@ -43,15 +43,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiKotlin />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />

@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
+import ProjectCardDeployed from "./ProjectCardsDeployed";
+import ProjectCardDemo from "./ProjectCardsDemo";
 import Particle from "../Particle";
 
 import escaperoom from "../../Assets/Projects/escaperoom.png";
@@ -19,29 +21,55 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="orange">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few school/personal projects I've worked on recently.
+          Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
       
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCardDeployed
               imgPath={escaperoom}
               isBlog={false}
-              title="EscapeRooms"
+              title="Creepypastas"
               description=""
-              link="https://github.com/SoufianeJD/MERN_EscapeRooms"
+              link="https://github.com/SoufianeJD/Creepypastas"
+              link2="https://www.escapethecreepypasta.com/#/"
+          
+  
             />
           </Col>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCardDemo
               imgPath={candyshop}
               isBlog={false}
               title="CandyShop"
               description=""
               link="https://github.com/SoufianeJD/MEAN_CandyShop"
+              link2="https://www.youtube.com/watch?v=4v3pGhcZ_Xw"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCardDemo
+              imgPath={elearningthot}
+              isBlog={false}
+              title="ElearningThot"
+              description=""
+              link="https://github.com/SoufianeJD/ASPMVC_ELearningThot"
+              link2="https://www.youtube.com/watch?v=1PJ8cqaYD4k"
+            />
+          </Col>
+
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={employee}
+              isBlog={false}
+              title="Employee's Paytab"
+              description=""
+              link="https://github.com/SoufianeJD/ASP_MVC_Employees_Infos"
             />
           </Col>
 
@@ -52,16 +80,6 @@ function Projects() {
               title="E-Commerce site"
               description=""
               link="https://github.com/SoufianeJD/ECommerce_PHPMVC"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={elearningthot}
-              isBlog={false}
-              title="ElearningThot"
-              description=""
-              link="https://github.com/SoufianeJD/ASPMVC_ELearningThot"
             />
           </Col>
 
@@ -85,15 +103,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={employee}
-              isBlog={false}
-              title="Employee's Paytab"
-              description=""
-              link=""
-            />
-          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={jeuhasard}
